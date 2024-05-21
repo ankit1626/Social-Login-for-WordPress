@@ -11,18 +11,12 @@ After installing and activating the plugin on your site, navigate to the "Social
 
 ![Settings Page](https://drive.google.com/uc?export=download&id=1q-aAf6vXMYaExWutTRSsKyTxZx6HDWdy)
 
-Please note that Facebook app used on `https://ankitproj.in` is not public and only allow sign-ups and logins via the app owner's account. Attempting to use the plugin with your Facebook account will result in failure as shown in the below image. 
-
-![Error Message for Facebook Login](https://drive.google.com/uc?export=download&id=1DzENKKDkHrwizOWNSZrwNF5lxP0lO69x)
-
-To assess this functionality, you'll need to create your own app, which will allow sign-ups or logins with your account and with all the accounts once published.
-
-To obtain your own App ID, visit the following URLs:
+To obtain your App ID, visit the following URLs:
 
 - [Facebook](https://developers.facebook.com/apps/)
-  - Make sure to enable the JavaScript SDK module and add the site URL `https://ankitproj.in/` in OAuth redirect and Allowed domains for JDK settings.
+  - Make sure to enable the JavaScript SDK module and add your site URL in OAuth redirect and Allowed domains for JDK settings.
 - [Google](https://console.cloud.google.com/apis/credentials)
-  - Add the site URL `https://ankitproj.in/` to the "Authorized JavaScript origins" setting. For "Authorized redirect URIs," use the following site URL: `https://ankitproj.in/wp-json/d3v/v1/social-login`
+  - Add your site URL to the "Authorized JavaScript origins" setting. For "Authorized redirect URIs," use the following site URL: `https://your-site-url/wp-json/d3v/v1/social-login`
 
 
 # Additional Features
